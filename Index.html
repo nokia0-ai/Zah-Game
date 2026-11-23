@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAH GAMES</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #080b12;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            padding: 25px 7%;
+            border-bottom: 1px solid #252c38;
+        }
+
+        header h1 {
+            letter-spacing: 5px;
+        }
+
+        header p {
+            color: #8995a8;
+            font-size: 11px;
+            letter-spacing: 3px;
+        }
+
+        main {
+            min-height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h2 {
+            font-size: clamp(35px, 7vw, 65px);
+        }
+
+        .tag {
+            color: #ff812e;
+            letter-spacing: 3px;
+        }
+
+        .description {
+            color: #aab4c4;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 17px 35px;
+            background: #ff812e;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #8995a8;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ZAH GAMES</h1>
+        <p>OUR WORLD. OUR GAME.</p>
+    </header>
+
+    <main>
+        <section>
+            <div class="tag">NEW GAME PROJECT</div>
+            <h2>Eine neue Welt wartet.</h2>
+            <p class="description">
+                Entdecke. Baue. Erkunde. Spiele gemeinsam.
+            </p>
+            <button onclick="startGame()">
+                SPIEL KOMMT BALD
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 ZAH GAMES
+    </footer>
+
+    <script>
+        function startGame() {
+            alert("ZAH GAMES – Das Spiel kommt bald!");
+        }
+    </script>
+
+</body>
+</html>
